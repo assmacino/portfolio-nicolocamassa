@@ -1,3 +1,8 @@
+import Badge from "@/components/ui/section-badge"
+
+
 export default function Page() {
-  return <h1></h1>
+  return <>
+    <Badge>Full Stack Web Developer</Badge>
+  </>
 }

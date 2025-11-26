@@ -2,7 +2,8 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --foreground: #040404;
+  --light-dark: #f3f3f3;
 }
 
 @theme inline {
@@ -17,12 +18,14 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #ffffff;
-    --foreground: #000000; /* TODO: Cambiare il tema */
+    --foreground: #040404; /* TODO: Cambiare il tema */
+    --light-dark: #f3f3f3;
   }
 }
  
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: "Parkinsans", sans-serif;
+  font-family: "Fustat", sans-serif;
 }
+
