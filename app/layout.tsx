@@ -30,7 +30,7 @@ export default function RootLayout({
         className={`${parkinsans.variable} ${fustat.variable} antialiased`}
       >
         <Header />
-        <div className="xl:mx-[180px]">
+        <div className="xl:mx-[180px] mx-[20px]">
           {children}
         </div>
         

@@ -12,7 +12,7 @@ const button = tv({
   variants: {
     variant: {
         nav: "pr-0 [&_.highlighted]:bg-[var(--foreground)] [&_.highlighted]:text-white [&_.highlighted]:rounded-[100vw] [&_.highlighted]:py-2 [&_.highlighted]:px-7 [&_li]:mr-5 [&_.highlighted]:mx-0 [&_.highlighted]:-ml-2",
-        btn: "py-2 ",
+        btn: "py-2 bg-[var(--color-secondary)] text-white",
         logo: "[&_svg]:bg-[var(--foreground)] [&_svg]:py-2",
     },
 

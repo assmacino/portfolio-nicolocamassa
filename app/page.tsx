@@ -1,8 +1,12 @@
-import Badge from "@/components/ui/section-badge"
+import Hero from "@/components/sections/hero"
+import Projects from "@/components/sections/projects"
 
 
 export default function Page() {
   return <>
-    <Badge>Full Stack Web Developer</Badge>
+  <main>
+    <Hero></Hero>
+    <Projects></Projects>
+  </main>
   </>
 }
